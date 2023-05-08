@@ -1,5 +1,13 @@
 Technologies - Spring Boot, Maven, H2, Postman
 --------------------------------------------
+Project Setup
+---------------------
+Do git clone repo
+Do Maven clean install
+Launch main class
+
+Below steps for different data inputs
+---------------------------------------
 1) Below endpoint will create sample data in H2.
 
 http://localhost:8080/mockupData
