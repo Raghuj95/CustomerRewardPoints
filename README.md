@@ -8,7 +8,7 @@ http://localhost:8080/mockupData
 
 | Method  | API                               | Request  | Response                    |
 | ------- | --------------------------------- | -------- | --------------------------- |
-| POST    |  http://localhost:8080/mockupData |          |  Mockup Data is created     |
+| POST    |  http://localhost:8080/mockupData |   [{"customerName":"customer1","purchaseAmount":"100","createdDate":"13/03/2023"},{"customerName":"customer1","purchaseAmount":"40","createdDate":"01/04/2023"},{"customerName":"customer1","purchaseAmount":"140","createdDate":"02/04/2023"}]       |  Mockup Data is created     |
 
 2) Get the customer total earning points and monthly wise total earning points
 
