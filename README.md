@@ -12,22 +12,33 @@ http://localhost:8080/mockupData
 
 2) Get the customer total earning points and monthly wise total earning points
 
-http://localhost:8080/getRewardPoints?name=customer1
+http://localhost:8080/getRewardPoints?customerName=customer1
 
 ![alt text](https://github.com/Raghuj95/CustomerRewardPoints/blob/main/Showcase/customer1.png)
 
+| Method  | API                                                          | Request  | Response                    |
+| ------- | ------------------------------------------------------------ | -------- | --------------------------- |
+| GET     | http://localhost:8080/getRewardPoints?customerName=customer1 |          |  {"totalPoints":180,"rewards":[{"month":3,"monthPoints":50},{"month":4,"monthPoints":130}]}     |
+
 3)Get the customer total earning points and monthly wise total earning points
 
-http://localhost:8080/getRewardPoints?name=customer2
+http://localhost:8080/getRewardPoints?customerName=customer2
 
 ![alt text](https://github.com/Raghuj95/CustomerRewardPoints/blob/main/Showcase/customer2.png)
 
+| Method  | API                                                          | Request  | Response                    |
+| ------- | ------------------------------------------------------------ | -------- | --------------------------- |
+| GET     | http://localhost:8080/getRewardPoints?customerName=customer2 |          |  {"totalPoints":200,"rewards":[{"month":3,"monthPoints":90},{"month":4,"monthPoints":110}]}    |
+
 4)Incase of user is not found
 
-http://localhost:8080/getRewardPoints?name=customer10
+http://localhost:8080/getRewardPoints?customerName=customer10
 
 ![alt text](https://github.com/Raghuj95/CustomerRewardPoints/blob/main/Showcase/nocustomer.png)
 
+| Method  | API                                                          | Request  | Response                    |
+| ------- | ------------------------------------------------------------ | -------- | --------------------------- |
+| GET     | http://localhost:8080/getRewardPoints?customerName=customer10 |          |  {"totalPoints":0,"rewards":[]}    |
 
 To Run Junits 
 -----------
