@@ -6,6 +6,10 @@ http://localhost:8080/mockupData
 
 ![alt text](https://github.com/Raghuj95/CustomerRewardPoints/blob/main/Showcase/mockupdata.png)
 
+| Method  | API                               | Request  | Response                    |
+| ------- | --------------------------------- | -------- | --------------------------- |
+| POST    |  http://localhost:8080/mockupData |          |  Mockup Data is created     |
+
 2) Get the customer total earning points and monthly wise total earning points
 
 http://localhost:8080/getRewardPoints?name=customer1
