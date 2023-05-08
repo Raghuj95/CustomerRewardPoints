@@ -3,8 +3,11 @@ Technologies - Spring Boot, Maven, H2, Postman
 Project Setup
 ---------------------
 Do git clone repo
+
 Do Maven clean install
+
 Launch main class
+
 
 Below steps for different data inputs
 ---------------------------------------
