@@ -2,11 +2,13 @@ Technologies - Spring Boot, Maven, H2, Postman
 --------------------------------------------
 Project Setup
 ---------------------
-Do git clone repo
+Do git clone repo using Gitbash or through IDE(Eclipse/ Intellij etc)
+
+Open project in IDE
 
 Do Maven clean install
 
-Launch main class
+Open RewardPointsApplication.java file and then right click run as Java application
 
 
 Below steps for different data inputs
